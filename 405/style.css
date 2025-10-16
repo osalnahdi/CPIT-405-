@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background-color: #25253a;
+    color: #ddd;
+}
+
+header {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #8000ff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+header h1 span {
+    color: #a64cff;
+}
+header p {
+    margin: 5px 0 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ccc;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+nav a:hover {
+    border-bottom: 2px solid #a64cff;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    padding: 30px;
+}
+
+aside {
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding-right: 20px;
+}
+aside img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #a64cff;
+}
+aside a {
+    color: #a64cff;
+}
+
+section {
+    width: 75%;
+    padding-left: 30px;
+}
+
+h2 {
+    border-bottom: 1px dashed #a64cff;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #ddd;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+thead {
+    background-color: #222;
+    color: #a64cff;
+}
+tbody tr:nth-child(even) {
+    background-color: #181818;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: #222;
+    color: #eee;
+}
+input:focus, textarea:focus {
+    border-color: #a64cff;
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    
+    align-items: center;
+    
+    color: #ccc;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+button:hover {
+    background-color: #5c00b8;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1b1b;
+    border-top: 2px solid #8000ff;
+    font-size: 14px;
+    color: #bbb;
+}
