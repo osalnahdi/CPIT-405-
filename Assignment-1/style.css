@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background-color: #25253a;
+    color: #ddd;
+}
+
+header {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #8000ff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+header h1 span {
+    color: #a64cff;
+}
+header p {
+    margin: 5px 0 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ccc;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+nav a:hover {
+    border-bottom: 2px solid #a64cff;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    padding: 30px;
+}
+
+aside {
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding-right: 20px;
+}
+aside img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #a64cff;
+}
+aside a {
+    color: #a64cff;
+}
+
+section {
+    width: 75%;
+    padding-left: 30px;
+}
+
+h2 {
+    border-bottom: 1px dashed #a64cff;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #ddd;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+thead {
+    background-color: #222;
+    color: #a64cff;
+}
+tbody tr:nth-child(even) {
+    background-color: #181818;
+}
+
+form {
+  margin-top: 1.5rem;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.3rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #c4b5fd;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  background-color: #32273d;
+  color: #3b0764;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #7c3aed;
+  background-color: #b4a5c4;
+  box-shadow: 0 0 0.4rem #a78bfa;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 6rem;
+}
+
+form input[type="radio"] {
+  width: auto;
+  margin-right: 0.3rem;
+  accent-color: #6d28d9;
+}
+
+form label[for="complaint"],
+form label[for="suggestion"] {
+  font-weight: 500;
+  margin-right: 1rem;
+  color: #e2e2e2;
+  display: inline;
+}
+
+form button {
+  background-color: #5b21b6;
+  color: rgb(213, 211, 214);
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;              
+  box-sizing: border-box;   
+}
+
+form button:hover {
+  background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b1b1b;
+    border-top: 2px solid #8000ff;
+    font-size: 14px;
+    color: #bbb;
+}
