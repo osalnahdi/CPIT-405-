@@ -85,12 +85,7 @@ submitBtn.addEventListener("click", () => {
 clearBtn.addEventListener("click", () => {
   comments = [];
   setCookie("comments", JSON.stringify(comments), 7);
-  render();
-});
-
-// Reset all
-resetBtn.addEventListener("click", () => {
-  likes = 100;
+   likes = 100;
   dislikes = 20;
   comments = [];
   voted = "";
@@ -100,5 +95,7 @@ resetBtn.addEventListener("click", () => {
   deleteCookie("voted");
   render();
 });
+
+
 
 render();
